@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './header';
 import FilterContainer from './filter-container';
+import ResultContainer from './result-container';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         {/* Filter container */}
         <FilterContainer/>
         {/* Result container */}
+        <ResultContainer/>
       </main>
     </div>
   );
